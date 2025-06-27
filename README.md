@@ -1,5 +1,8 @@
-# Vue 3 + Vite
+功能
+1. 新增收藏：輸⼊網址（可選擇加上標題），按下「新增」按鈕後加⼊下⽅清單。
+2. 顯⽰清單：畫⾯下⽅顯⽰所有已收藏的網址，每⼀項可點擊開啟網址。
+3. 刪除單⼀收藏：每個收藏旁邊有「刪除」按鈕，能移除這⼀筆。
+4. 清空全部：有「清空全部」按鈕，可以⼀次移除所有收藏。
+5. 本地儲存：讓收藏的網址能存到 localStorage，重整網⾴不會消失
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+使用localStorage 儲存資料，並透過按鈕控制，新增/移除資料
